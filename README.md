@@ -1,21 +1,18 @@
 # Customer Intelligence Segmentation System 📊
-  
-## 🛍️ Business Domain
 
-E-Commerce & Online Retail
+## 🙂 Overview
+This project focuses on segmenting customers into meaningful groups based on their demographic information, purchasing behavior, and engagement metrics. By applying unsupervised machine learning, I have built a customer segmentation system using K-Means Clustering to identify premium and at-risk customers and support more effective marketing strategies.
 
-----
-
-## 🤔 Problem Statement
-
-* Businesses often struggle to understand their diverse customer base and deliver personalized marketing strategies. Treating all customers the same leads to ineffective campaigns, reduced customer engagement, and lower revenue generation.
-* Accurately segmenting customers based on their demographic and purchasing behavior helps organizations identify high-value customers, improve targeting strategies, and optimize business decisions.
+*The goal is to help businesses personalize marketing campaigns, improve customer retention, identify high-value customers, and make data-driven business decisions.*
 
 ----
 
-## 🎯 Project Objective
-
-The objective of the project is to build a unsupervised machine learning system that automatically segments customers into premium and risky based on their demographic information, purchasing patterns, and engagement metrics.
+## 💡 Problem Statement & Business Impact
+- Businesses often struggle to understand their diverse customer base and deliver personalized marketing strategies.
+- Treating all customers the same can lead to ineffective campaigns, reduced customer engagement, and lost revenue opportunities.
+- Customer value and purchasing behavior vary based on demographic characteristics, spending patterns, and engagement levels.
+- **Goal:** Developed an unsupervised machine learning model that segments customers into meaningful groups based on their demographic information, purchasing patterns, and engagement metrics.
+- **Business value:** Effective customer segmentation helps businesses identify premium and potentially at-risk customers, improve marketing strategy, strengthen customer retention, and provide resources more efficiently.
 
 ----
 
