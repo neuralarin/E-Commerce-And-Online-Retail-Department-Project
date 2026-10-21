@@ -36,48 +36,37 @@ The dataset contains customer information such as age, annual income, spending b
 
 ## 📈 Data Visualization
 
-1. **What is the overall distribution of customer income, and are there extreme outliers that could distort clustering?**
-- **Income is mostly clustered around 50,000, but a massive outlier above 600,000 could heavily misinterpret clustering results.**
+1. **Income is mostly clustered around 50,000, but a massive outlier above 600,000 could heavily misinterpret clustering results.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/income_distribution_and_outlier.png" width="100%">
 
-2. **How does spending behavior vary across product categories?**
-- **Customers spend the most on wines and meats, while spending very little on fruits and sweet products.**
+2. **Customers spend the most on wines and meats, while spending very little on fruits and sweet products.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/average_spending_by_product_category.png" width="100%">
 
-3. **Are customers with higher income actually spending more?**
-- **Total spending strongly increases as income grows, while a few extreme high-income outliers spend very little.**
+3. **Total spending strongly increases as income grows, while a few extreme high-income outliers spend very little.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/income_vs_total_spending.png" width="100%">
 
-4. **Which purchase channel is most associated with total spending?**
-- **In-store purchases are the most frequent channel, then web purchases, and catalog purchases being the lowest that is contributing to purchase.**
+4. **In-store purchases are the most frequent channel, then web purchases, and catalog purchases being the lowest that is contributing to purchase.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/average_purchase_by_channel.png" width="100%">
 
-5. **Does recency relate to customer value and engagement?**
-- **Recency shows almost no clear relationship with total spending, because recent buyers do not certainly spend more money.**
+5. **Recency shows almost no clear relationship with total spending, because recent buyers do not certainly spend more money.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/recency_vs_total_spending.png" width="100%">
 
-6. **What is the distribution of marital status with respect to spending?**
-- **Widows show slightly higher spending, while single and married customers have heavily lower total spending. The marital status column has some invalid data also.**
+6. **Widows show slightly higher spending, while single and married customers have heavily lower total spending. The marital status column has some invalid data also.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/total_spending_by_marital_status_eda.png" width="100%">
 
-7. **Are there distinct age groups with different purchasing patterns?**
-- **Among all age group 70+ are spending the highest on average, then 60-69 and then 30-39.**
+7. **Among all age group 70+ are spending the highest on average, then 60-69 and then 30-39.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/average_total_spending_by_age_group.png" width="100%">
 
-8. **Do customers who accepted previous campaigns spend more or buy differently?**
-- **Customers who accepted more campaigns consistently show much higher total spending than those who accept none.**
+8. **Customers who accepted more campaigns consistently show much higher total spending than those who accept none.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/spending_vs_campaign_acceptance.png" width="100%">
 
-9. **What features are highly correlated, and which may be redundant for clustering?**
-- **People with higher incomes spend more money overall and buy more from catalogs and as customers tend to buy similar amounts across all product types, tracking every single category will be like repeating the same information.**
+9. **People with higher incomes spend more money overall and buy more from catalogs and as customers tend to buy similar amounts across all product types, tracking every single category will be like repeating the same information.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/correalation_heatmap(EDA).png" width="100%">
 
-10. **How do marital groups affect spending?**
-- **Everyone mostly spends small amounts. widow spend the most on average. but, a few single and partnered people spend the highest amounts overall.**
+10. **Everyone mostly spends small amounts. widow spend the most on average. but, a few single and partnered people spend the highest amounts overall.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/total_spending_by_marital_status.png" width="100%">
 
-11. **Checking distribution of some important columns to check skewness before log transformation**
-- **Important columns like Income, MntWines, MntMeatProducts, MntGoldProds and Web_Visit_to_Purchase_Ratio have extreme outliers and data is right skewed. So, we will perform log transformation to reduce right skewness.**
+11. **Important columns like Income, MntWines, MntMeatProducts, MntGoldProds and Web_Visit_to_Purchase_Ratio have extreme outliers and data is right skewed. So, we will perform log transformation to reduce right skewness.**
 <img src="https://github.com/neuralarin/Customer-Intelligence-Segmentation-System/blob/main/images/distribution_of_important_columns_before_log_transformation.png" width="100%">
 
 12. **Checking distribution of some important columns to check skewness after log transformation**
